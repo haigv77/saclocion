@@ -1,6 +1,6 @@
 html {
-  height: 100%;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -16,21 +16,20 @@ body {
   padding-bottom: 6rem;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f2f6f5;
+  color: #63707e;
 }
 
 h1 {
-  color: #F3F00A;
   font-size: 3em;
   font-weight: bold;
 }
 
 h2 {
-  color: blue;
   font-size: 2em;
 }
 
 p {
-  color: blue;
   font-size: 1.5em;
 }
 
@@ -76,7 +75,7 @@ textarea, input {
 }
 
 .butn {
-  background: #3498db;
+  background: #93b5b3;
   border: none;
   border-radius: 2em;
   text-shadow: 1px 1px 3px #666666;
@@ -90,12 +89,12 @@ textarea, input {
 }
 
 .butn:hover {
-  background: #3cb0fd;
+  background: #c8dad3;
   text-decoration: none;
 }
 
 .butnsmall {
-  background: #3498db;
+  background: #63707e;
   border: none;
   border-radius: 1.5em;
   text-shadow: 1px 1px 3px #666666;
@@ -113,12 +112,13 @@ textarea, input {
   top: 0;
   width: 100%;
   height: 6em;
-  background-color: white;
+  background-color: #c8dad3;
   padding: 10px;
 }
 
 .middle-container {
   margin: 150px auto;
+  padding: 20px;
   width: 75%;
 }
 
@@ -146,7 +146,7 @@ textarea, input {
 }
 
 .page-container h1{
-  color: red;
+  color: #63707e;
   font-size: 2em;
 }
 
@@ -164,7 +164,7 @@ textarea, input {
   bottom: 0;
   left: 0;
   padding: 0.5rem;
-  background-color: #ADD7FF;
+  background-color: #93b5b3;
   height: 120px;
 }
 
